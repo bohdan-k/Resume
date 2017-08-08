@@ -1,0 +1,181 @@
+* {
+  font-family: sans-serif;
+  font-size: 14px;
+
+}
+
+#A4 {
+  margin: 0 auto;
+    box-sizing: border-box;
+    height: 297mm;
+  width: 210mm;
+    padding: 1cm;
+        background: url(../images/PEnJm.png) repeat, -moz-radial-gradient(center, ellipse cover, rgba(196,229,255,0.6) 0%, rgba(196,229,255,0.6) 46%, rgba(125,177,255,0.6) 100%), url(../images/PEnJm.png) repeat;
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(196,229,255,0.6)), color-stop(46%, rgba(196,229,255,0.6)), color-stop(100%, rgba(125,177,255,0.6))), url(../images/PEnJm.png) repeat;
+background: -webkit-radial-gradient(center, ellipse cover, rgba(196,229,255,0.6) 0%, rgba(196,229,255,0.6) 46%, rgba(125,177,255,0.6) 100%), url(../images/PEnJm.png) repeat;
+background: -o-radial-gradient(center, ellipse cover, rgba(196,229,255,0,6) 0%, rgba(196,229,255,0,6) 46%, rgba(125,177,255,0,6) 100%), url(../images/PEnJm.png) repeat;
+background: -ms-radial-gradient(center, ellipse cover, rgba(196,229,255,0.6) 0%, rgba(196,229,255,0.6) 46%, rgba(125,177,255,0.6) 100%), url(../images/PEnJm.png) repeat;
+background: radial-gradient(ellipse at center, rgba(196,229,255,0.6) 0%, rgba(196,229,255,0.6) 46%, rgba(125,177,255,0.6) 100%), url(../images/PEnJm.png) repeat;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4e5ff', endColorstr='#7db1ff', GradientType=1)
+}
+
+#A4> div {
+    overflow: hidden;
+}
+
+#personal_data {
+    float: right;
+    max-width: 439px;
+    clear: both;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 22px;
+  }
+
+h3 {
+    text-align: center;
+}
+
+p:nth-of-type(6), p:nth-of-type(4), p:nth-of-type(5) {
+  display: inline;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#photo {
+    display: inline-block;
+    width: auto;
+    height: 212px;
+    margin-left: 22px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 10px solid #0468DB;
+}
+#content {
+    
+} 
+
+
+#content> p {
+  clear: both;
+    text-align: center;
+   
+}
+
+#pro_data {
+  margin-bottom: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+#pro_data div p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#pro_data div:nth-child(1) {
+  flex: 8;
+  padding-right: 10px;
+
+}
+
+#pro_data div:nth-child(2) {
+  flex: 11;
+}
+
+#pro_data div p {
+  text-align: center;
+  }
+
+#experience {
+    overflow: hidden;
+}
+
+#io, #sb, #forbes {
+    border: 3px solid #0468DB;
+    border-radius: 6px;
+    padding: 0 10px;
+}
+
+#io {
+    margin-bottom: 10px;
+}
+
+#sb {
+    margin-right: 10px;
+}
+#experience ul {
+   width: 50%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#experience img {
+        height: 180px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 27px;
+}
+
+#sb_f {
+    display: flex;
+}
+
+#sb_f div:nth-child(1){
+    flex: 4;
+}
+
+#sb_f div:nth-child(2){
+    flex: 9;
+}
+
+span {
+    font-style: italic;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+#content #experience ul {
+    margin-top: 0;
+}
+
+#sb ul {
+    width: 80%;
+    padding-top: 14px;
+}
+
+#bonus ul {
+    width: 91%;
+}
+
+h4 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+#forbes p {
+    width: 50%;
+}
+
+#forbes img {
+    float: right;
+    height: 287px;
+    margin-right: 10px;
+    margin-top: 12px;
+}
+
+#forbes ul {
+    padding-left: 15px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+ul p {
+    margin-top: 0;
+}
