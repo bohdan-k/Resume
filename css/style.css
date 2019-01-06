@@ -237,6 +237,7 @@ ul{
 }
 .small_p{
 	font-size: 16px;
+	font-weight: 600;
 }
 .third_screen h4{
 	margin:40px 0 0 0;
@@ -396,6 +397,7 @@ ul{
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+	margin-left: 5px;
 }
 .div_inner{
 	padding: 25px 0 0 5px;
