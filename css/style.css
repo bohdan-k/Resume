@@ -93,6 +93,7 @@ ul{
 }
 .first_section h1{
 	margin-bottom: -15px;
+	margin-top: 70px;
 }
 .first_section h2{
 	font-family:"AvenirNextCyr-Demi";
@@ -133,14 +134,18 @@ ul{
 	margin-bottom: 5px;
 	font-size: 16px;
 }
+.phone_circ a{
+	text-align: center;
+}	
 .h2_top{
-	margin-top: -50px;
+	margin-top: 0;
 }
 .h2_top2{
 	margin-top: 50px;
 }
 .second_section a{
 	color: black;
+	font-size: 14px!important;
 }
 .second_section li{
 	font-family:"AvenirNextCyr-Regular";
@@ -150,14 +155,16 @@ ul{
 	color: black;
 	text-decoration: none;
 }
+.second_section i{
+	margin: 15px 0 15px 0;
+}
 .third_screen{
 	border: 4px black solid;
 	border-radius: 30px;
-	padding: 20px 15px;
+	padding: 20px 15px 30px 15px;
 }
 .third_screen img{
-	width: 100%;
-	
+	width: 100%;	
 }
 .marker_black .black_text{
 	font-size: 16px!important;
@@ -204,14 +211,21 @@ ul{
 }
 .third_screen h3{
 	font-family:"AvenirNextCyr-Demi";
-	margin:0;
+	margin:10px 0 0 0;
+	font-size: 20px;
 }
 .third_screen p{
-	margin: 0;
+	margin:15px 0 20px 0;
 	font-family:"AvenirNextCyr-Regular";;
 }
 .third_screen ul{
 	margin-bottom: 20px;
+}
+.third_screen .medium_p{
+	margin: 20px 0 0 0;
+}
+.third_screen .small_p{
+	margin-top: 0;
 }
 .big_p{
 	font-size: 18px;
@@ -223,9 +237,10 @@ ul{
 }
 .small_p{
 	font-size: 16px;
+	font-weight: 600;
 }
 .third_screen h4{
-	margin:20px 0 0 0;
+	margin:40px 0 0 0;
 	font-size: 20px;
 	font-family:"AvenirNextCyr-Regular";
 	font-weight: 600;
@@ -256,7 +271,8 @@ ul{
 }
 .screen4 h3{
 	font-family:"AvenirNextCyr-Demi";
-	margin:0;
+	margin-top: 20px;
+	margin-bottom: 0;
 }
 .screen4 p{
 	margin: 0;
@@ -268,7 +284,7 @@ ul{
 }
 .screen4 h4{
 	margin:10px 0 0 0;
-	font-size: 18px;
+	font-size: 20px;
 	padding-top: 15px;
 	font-family:"AvenirNextCyr-Regular";
 	font-weight: 600;
@@ -301,6 +317,8 @@ ul{
 .screen5 h3{
 	font-family:"AvenirNextCyr-Demi";
 	margin:0;
+	margin-top: 20px!important;
+	font-size: 19px;
 }
 .screen5 p{
 	margin: 0;
@@ -312,7 +330,7 @@ ul{
 	margin-left: 15px;
 }
 .screen5 h4{
-	margin:10px 0 0 0;
+	margin:20px 0 0 0;
 	font-size: 18px;
 	font-family:"AvenirNextCyr-Regular";
 	font-weight: 600;
@@ -374,6 +392,14 @@ ul{
 }
 .licica{
 	font-size: 19px!important;
+}
+.phone_number{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.div_inner{
+	padding: 25px 0 0 5px;
 }
 /*@media (max-width: 1200px){
 	.screen4 ul{
